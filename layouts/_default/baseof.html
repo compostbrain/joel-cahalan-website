@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     {{- partial "head.html" . -}}
-    <body>
+    <body class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
         <div id="content" class="container mx-auto px-12 py-2">
             {{- partial "header.html" . -}}
-            {{- block "main" . }}{{- end }}
+            <div class="mt-2">
+                {{- block "main" . }}{{- end }}
+            </div>
             {{- partial "footer.html" . -}}
         </div>
     </body>
