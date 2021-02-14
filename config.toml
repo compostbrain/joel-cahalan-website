@@ -3,10 +3,10 @@ languageCode = "en-us"
 title = "Joel Cahalan Website"
 
 [module]
-
-
   [[module.imports]]
     path = "github.com/bep/hugo-starter-tailwind-basic/v2"
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-jslibs/alpinejs"
 
 [build]
   writeStats = true

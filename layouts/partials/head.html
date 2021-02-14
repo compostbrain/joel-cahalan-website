@@ -12,4 +12,5 @@
   {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
   {{ end }}
   <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+  {{ partialCached "jslibs/alpinejs/script-src.html" "-" }}
 </head>
