@@ -1,0 +1,8 @@
+# Hugo default output
+/public
+resources/
+hugo_stats.json
+# endless js
+node_modules
+# osx specific
+.DS_Store
