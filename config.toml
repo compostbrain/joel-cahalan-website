@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Joel Cahalan Website"
+title = "Joel Cahalan"
 
 [module]
   [[module.imports]]
